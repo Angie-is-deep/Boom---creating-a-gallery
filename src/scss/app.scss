@@ -27,3 +27,22 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 50px;
+}
+
+#grid-1 {
+    background-color: brown;
+}
+
+#grid-2 {
+    background-color: salmon;
+}
+
+#grid-3 {
+    background-color: purple;
+}
+
